@@ -1,0 +1,27 @@
+import React from 'react'
+import {Navbar,Container,Nav,Button} from 'react-bootstrap'
+import Image from './Image';
+import Logo from '../assets/Logo.png'
+
+const Navber = () => {
+  return (
+     <Navbar expand="lg" className="bg-body-tertiary Navbar">
+      <Container>
+        <Navbar.Brand href="#home">
+            <Image src={Logo}/> 
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link className='menuitem' href="#home">About</Nav.Link>
+            <Nav.Link className='menuitem' href="#link">Features</Nav.Link>
+            <Nav.Link className='menuitem' href="#link">Pricing</Nav.Link>
+          </Nav>
+           <Button className='btn' variant="dark">GET STARTED</Button>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  )
+}
+
+export default Navber
