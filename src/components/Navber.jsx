@@ -5,14 +5,15 @@ import Logo from '../assets/Logo.png'
 
 const Navber = () => {
   return (
-     <Navbar expand="lg" className="bg-body-tertiary Navbar">
+    <section className='navbarsection'>
+      <Navbar expand="lg" className="main">
       <Container>
         <Navbar.Brand href="#home">
             <Image src={Logo}/> 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto listitem">
             <Nav.Link className='menuitem' href="#home">About</Nav.Link>
             <Nav.Link className='menuitem' href="#link">Features</Nav.Link>
             <Nav.Link className='menuitem' href="#link">Pricing</Nav.Link>
@@ -21,6 +22,9 @@ const Navber = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+    </section>
+     
   )
 }
 

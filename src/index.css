@@ -1,14 +1,89 @@
-.Navbar .btn{
-    background-color: black!important;
-    padding: 8px 20px !important;
-    border-radius: 0px !important;
+.navbarsection{
+    padding: 18px 0px !important;
 }
 
-.Navbar .menuitem{
+.main{
+    background-color: white !important;
+}
+
+.main .menuitem{
     color: black !important;
     font-size: 14px !important;
     font-weight: 400 !important;
     font-family: "Inter", sans-serif;
+    position: relative;
+    
 
 
+}
+.main .menuitem:hover{
+    color: rgb(14, 131, 234) !important;
+}
+
+
+
+
+.main .listitem{
+    gap: 32px !important;
+    
+}
+
+.main .btn{
+    background-color: black!important;
+    padding: 8px 20px !important;
+    border-radius: 0px !important;
+    margin-left: 32px !important;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    border: none;
+
+}
+.main .btn:hover{
+    background-color: rgb(14, 131, 234) !important;
+
+}
+
+
+/* Navbar part end */
+.awmain{
+    padding: 64px 0px;
+}
+.awbtn{
+    background-color: black!important;
+    padding: 8px 20px !important;
+    border-radius: 0px !important;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: white;
+    border: none;
+
+}
+
+.awbtn:hover{
+   background-color: rgb(14, 131, 234) !important;
+   margin: 0px;
+}
+
+
+.awmain h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    width: 545px;
+    line-height: 125%;
+}
+
+.awmain p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 555px;
+    line-height: 125%;
+    padding: 24px 0px;
+}
+
+.awmain .className{
+    width: 100%;
 }
