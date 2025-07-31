@@ -36,7 +36,7 @@ const Team = () => {
                           <Card.Title>Nafij Islam</Card.Title>
                           <Card.Title>Python</Card.Title>
                         <Card.Text>
-                            MarkatePlace Hunting
+                            Python Developer
                         </Card.Text>
                         
                     </Card.Body>
@@ -46,9 +46,9 @@ const Team = () => {
                   <Image className="className" src={tabib}/>
                     <Card.Body>
                           <Card.Title>Tahsin Al Tabib</Card.Title>
-                          <Card.Title>Fiverr</Card.Title>
+                          <Card.Title>Java Script</Card.Title>
                         <Card.Text>
-                            MarkatePlace Hunting
+                            Java Script Developer
                         </Card.Text>
                         
                     </Card.Body>
@@ -61,9 +61,9 @@ const Team = () => {
                   <Image className="className" src={jkroy}/>
                     <Card.Body>
                           <Card.Title>Jk Roy</Card.Title>
-                          <Card.Title>Fiverr</Card.Title>
+                          <Card.Title>React</Card.Title>
                         <Card.Text>
-                            MarkatePlace Hunting
+                            React Developer
                         </Card.Text>
                         
                     </Card.Body>
@@ -73,9 +73,9 @@ const Team = () => {
                   <Image className="className" src={rudro}/>
                     <Card.Body>
                           <Card.Title>Mostofa Jaman</Card.Title>
-                          <Card.Title>Fiverr</Card.Title>
+                          <Card.Title>Laravel</Card.Title>
                         <Card.Text>
-                            MarkatePlace Hunting
+                            Laravel Developer
                         </Card.Text>
                         
                     </Card.Body>
@@ -86,9 +86,9 @@ const Team = () => {
                   <Image className="className" src={polas}/>
                     <Card.Body>
                           <Card.Title>Polas Dash</Card.Title>
-                          <Card.Title>Fiverr</Card.Title>
+                          <Card.Title>Tailwind</Card.Title>
                         <Card.Text>
-                            MarkatePlace Hunting
+                            Tailwind Developer
                         </Card.Text>
                         
                     </Card.Body>
