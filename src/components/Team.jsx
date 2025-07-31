@@ -1,0 +1,102 @@
+import React from 'react'
+import { Container,Card} from 'react-bootstrap';
+import faruk from '../assets/faruk.jpg'
+import tabib from '../assets/tabib.jpg'
+import nafis from '../assets/nafis.jpg'
+import jkroy from '../assets/jkroy.jpg'
+import rudro from '../assets/rudro.jpg'
+import polas from '../assets/polas.png'
+import Image from './Image';
+
+const Team = () => {
+  return (
+    <section className='team-part'>
+        <Container>
+            <div className='team-heading'>
+                <h2>Team section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sagittis eros. Quisque quis euismod lorem.</p>
+            </div>
+{/* heading part */}
+            <div className='card-flex'>
+               <Card className='main-card'>
+                  <Image className="className" src={faruk}/>
+                    <Card.Body>
+                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Fiverr</Card.Title>
+                        <Card.Text>
+                            MarkatePlace Hunting
+                        </Card.Text>
+                        
+                    </Card.Body>
+                </Card>
+
+                <Card className='main-card'>
+                  <Image className="className" src={tabib}/>
+                    <Card.Body>
+                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Fiverr</Card.Title>
+                        <Card.Text>
+                            MarkatePlace Hunting
+                        </Card.Text>
+                        
+                    </Card.Body>
+                </Card>
+
+                <Card className='main-card'>
+                  <Image className="className" src={nafis}/>
+                    <Card.Body>
+                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Fiverr</Card.Title>
+                        <Card.Text>
+                            MarkatePlace Hunting
+                        </Card.Text>
+                        
+                    </Card.Body>
+                </Card>
+
+
+                <Card className='main-card'>
+                  <Image className="className" src={jkroy}/>
+                    <Card.Body>
+                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Fiverr</Card.Title>
+                        <Card.Text>
+                            MarkatePlace Hunting
+                        </Card.Text>
+                        
+                    </Card.Body>
+                </Card>
+
+                 <Card className='main-card'>
+                  <Image className="className" src={rudro}/>
+                    <Card.Body>
+                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Fiverr</Card.Title>
+                        <Card.Text>
+                            MarkatePlace Hunting
+                        </Card.Text>
+                        
+                    </Card.Body>
+                </Card>
+
+
+                <Card className='main-card'>
+                  <Image className="className" src={polas}/>
+                    <Card.Body>
+                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Fiverr</Card.Title>
+                        <Card.Text>
+                            MarkatePlace Hunting
+                        </Card.Text>
+                        
+                    </Card.Body>
+                </Card>
+            </div>
+
+        </Container>
+        
+    </section>
+  )
+}
+
+export default Team
