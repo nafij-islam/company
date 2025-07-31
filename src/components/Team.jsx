@@ -30,11 +30,11 @@ const Team = () => {
                     </Card.Body>
                 </Card>
 
-                <Card className='main-card'>
-                  <Image className="className" src={tabib}/>
+                 <Card className='main-card'>
+                  <Image className="className" src={nafis}/>
                     <Card.Body>
-                          <Card.Title>Faruk Mulla</Card.Title>
-                          <Card.Title>Fiverr</Card.Title>
+                          <Card.Title>Nafij Islam</Card.Title>
+                          <Card.Title>Python</Card.Title>
                         <Card.Text>
                             MarkatePlace Hunting
                         </Card.Text>
@@ -43,9 +43,9 @@ const Team = () => {
                 </Card>
 
                 <Card className='main-card'>
-                  <Image className="className" src={nafis}/>
+                  <Image className="className" src={tabib}/>
                     <Card.Body>
-                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Tahsin Al Tabib</Card.Title>
                           <Card.Title>Fiverr</Card.Title>
                         <Card.Text>
                             MarkatePlace Hunting
@@ -53,12 +53,14 @@ const Team = () => {
                         
                     </Card.Body>
                 </Card>
+
+               
 
 
                 <Card className='main-card'>
                   <Image className="className" src={jkroy}/>
                     <Card.Body>
-                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Jk Roy</Card.Title>
                           <Card.Title>Fiverr</Card.Title>
                         <Card.Text>
                             MarkatePlace Hunting
@@ -70,7 +72,7 @@ const Team = () => {
                  <Card className='main-card'>
                   <Image className="className" src={rudro}/>
                     <Card.Body>
-                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Mostofa Jaman</Card.Title>
                           <Card.Title>Fiverr</Card.Title>
                         <Card.Text>
                             MarkatePlace Hunting
@@ -83,7 +85,7 @@ const Team = () => {
                 <Card className='main-card'>
                   <Image className="className" src={polas}/>
                     <Card.Body>
-                          <Card.Title>Faruk Mulla</Card.Title>
+                          <Card.Title>Polas Dash</Card.Title>
                           <Card.Title>Fiverr</Card.Title>
                         <Card.Text>
                             MarkatePlace Hunting
