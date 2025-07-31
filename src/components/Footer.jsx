@@ -1,18 +1,14 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap';
-
+import logo from '../assets/logo.png'
 import Image from '../components/Image';
-
 const Footer = () => {
   return (
     <section className='footer-part'>
         <Container>
             <Row>
                 <Col lg={5}>
-                
-
-               
-            
+                <Image src={logo}/>
                 </Col>
 
                  <Col lg={2}>
