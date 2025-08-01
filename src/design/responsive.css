@@ -40,6 +40,15 @@
 	margin-top: 19px;
 }
 
+
+.team-part .card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 64px;
+}
+
 .clint-part .clint-main {
 	display: flex;
 	flex-direction: row;
