@@ -1,0 +1,85 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .navbarsection .logodesign{
+        width: 150px;
+        
+    }
+    .awmain h1 {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	width: 305px;
+	line-height: 125%;
+}
+.awmain{
+    padding: 10px 0px;
+    
+}
+
+.awmain p {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	width: 279px;
+	line-height: 125%;
+	padding: 24px 0px;
+
+}
+.awbtn{
+    margin-bottom: 35px;
+}
+
+.team-part .team-heading p {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	width: 297px;
+	display: inline-block;
+}
+
+.team-part .card-flex {
+	margin-top: 19px;
+}
+
+.clint-part .clint-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.clint-part {
+	padding: 4px 0px;
+}
+
+.form-part .form-design {
+	width: 286px;
+	margin: 0 auto;
+}
+
+.form-part .form-design .form-btn {
+	margin-top: 34px;
+}
+
+
+.footer-part {
+	padding: 10px 0px;
+	background-color: #F5F7FA;
+}
+
+.footerimg{
+    width: 197px;
+}
+
+.footer-part .copyright {
+	text-align: center;
+	padding-top: 27px;
+}
+
+.footer-part .copyright{
+    margin-bottom: 0px;
+
+}
+
+
+}
