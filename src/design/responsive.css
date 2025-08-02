@@ -41,6 +41,10 @@
 }
 
 
+.team-part .main-card {
+    width: 320px !important;
+}
+
 .team-part .card-flex{
     display: flex;
     flex-wrap: wrap;
